@@ -1,0 +1,210 @@
+
+	#headerContent{
+		margin: 0 auto;
+		width: 100%;
+		height: 80px;
+		background-color: #F2F2F2;
+		z-index: 100; 
+	}
+	.socialIconsHeader{
+		
+		margin:  0 auto;
+		margin: 0px 60px 0px 65px;
+
+	}
+	.buttons_header{
+		padding-top: 1em;
+		padding-right: 1em;
+	}
+	.ident{
+		padding-left: 15px;
+	}
+  .fa-facebook-official, .fa-twitter-square, .fa-youtube-play {
+      cursor: pointer;
+  }
+
+	.col-md-6 .col-md-6{
+  		display: inline-block;
+  	}
+  	.number_two{
+  		float: left;
+  	}
+  	.phone_source{
+  		height: 50px;
+  		margin-top: 10px;
+  	}
+  	.phone_source .source_data{
+  		margin-bottom: 10px;
+  	}
+  	.socialIconsHeader p{
+  		margin: 0;
+  	}
+  	.socialIconsHeaderTwo .ButtonsAcces{
+  		display: inline-block;
+
+  	}
+    .socialIconsHeaderTwo .buttons_header a,i{
+      color: black;
+    }
+  	.ButtonsAcces{
+  		margin-left: 30px;
+  		height: 30px;
+  		background: #1c3e6f;
+  		padding: 5px 10px 0px 10px;
+  		color: #FAFAFA;
+  		cursor: pointer;
+  		vertical-align: center;
+
+  		border-radius: 4px 4px 4px 4px;
+		-moz-border-radius: 4px 4px 4px 4px;
+		-webkit-border-radius: 4px 4px 4px 4px;
+
+  	}
+  	.ButtonAcces p{
+  		vertical-align: center;
+  		padding: 0;
+        color: #FAFAFA;
+  	}
+    .ButtonsAcces a p{
+      color: #FAFAFA;
+    }
+	.socialButtons{
+		margin-left: 96px;
+	}
+	@media (max-width: 1340px) {
+		#headerContent{
+			margin: 0 auto;
+			width: 100%;
+			height: 80px;
+			background-color: #F2F2F2;
+			z-index: 100;
+		}
+		.phone_source div{
+			float: left;
+			display: block;
+			/*background-color: red;*/
+			width: 400px;
+		}
+	}
+
+	@media (max-width: 1170px) {
+		#headerContent {
+			margin: 0 auto;
+			width: 100%;
+			height: 90px;
+			z-index: 100;
+		}
+		.phone_source div{
+			float: left;
+			margin: 0;
+			padding: 0;
+			left: 0;
+		}
+		.phone_source{
+			margin: 0;
+			padding: 0;
+			left:0;
+			height: 90px;
+			width: 40%;
+		}
+
+	}
+
+	@media (max-width: 840px) {
+
+	  .phone_source, .number_one, .number_two , .source_data{
+		  float: left;
+	  }
+
+	  .ButtonsAcces{
+		  width: 200px;
+	  }
+
+	}
+	@media (max-width: 626px) {
+		.phone_source{
+			display: inline;
+		}
+		.socialIconsHeader div{
+			display: inline;
+			padding-top: 0;
+		}
+
+		.socialIconsHeaderTwo{
+			float: left;
+			width: 100%;
+
+		}
+		.socialIconsHeaderTwo .buttons_header{
+			float: left;
+			width: 100%;
+		}
+		#headerContent{
+			width: 100%;
+			height: 140px;
+		}
+		.socialIconsHeaderTwo .ButtonsAcces{
+			width: 60%;
+			text-align: center;
+			margin-left: 0;
+			float: right;
+		}
+
+		.headerContent div {
+			display: inline;
+		}
+		.ButtonsAcces a p{
+			margin-top: 7px;
+		}
+		.ButtonAcces{
+			float: left;
+		}
+	}
+	@media (max-width: 464px) {
+		.ButtonsAcces a p{
+			font-size: x-small;
+			vertical-align: middle;
+			margin-top: 7px;
+		}
+		.ButtonAcces a{
+			margin-top: 5px;
+		}
+	}
+	@media (max-width: 406px) {
+		.socialIconsHeaderTwo{
+			text-align: center;
+		}
+		.socialIconsHeaderTwo .ButtonsAcces{
+			width: 100%;
+			text-align: center;
+			margin-left: 0;
+			float: right;
+		}
+
+		.ButtonsAcces a p{
+			font-size: x-small;
+			vertical-align: middle;
+			margin-top: 7px;
+		}
+		.socialIconsHeader{
+			padding: 10px 0px 0px 10px;
+			margin: 0;
+		}
+		.ButtonAcces a{
+			margin-top: 5px;
+		}
+		#headerContent{
+			margin: 0 auto;
+			width: 100%;
+			height: 170px;
+		}
+		.phone_source p {
+			font-size: x-small;
+		}
+		.socialIconsHeader div {
+			padding: 0;
+		}
+		.phone_source{
+			height: 80px;
+		}
+	}

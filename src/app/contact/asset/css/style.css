@@ -1,0 +1,26 @@
+.button_submit_contact{
+	padding: 20 0 20 0 ;
+}
+.content_contact{
+	padding: 20 0 0 20;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+.name_contact{
+	float: left;
+}
+.content_forms form{
+	padding-top: 40px;
+}
+.content_form{
+	/*background-color: #F5F5F5;*/
+}
+
+.content_form .row{
+	/*background-color: blue;*/
+	margin-right: 50px;
+}
+.content_forms textarea{
+	width: 95%;
+	margin: 0 auto;
+}

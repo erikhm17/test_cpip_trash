@@ -1,0 +1,40 @@
+#carousel-example-generic{
+	/*height: 500px;*/
+	margin: 0 auto;
+	clear: both;
+}
+.carousel-inner .item {
+	margin: 0 auto;
+	clear: both;
+	background-size: 50% 50%;
+}
+.carousel-inner {
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}
+.col-image{
+	width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.row{
+	/*margin: 0 auto;*/
+}
+.slider_content{
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+	.slider_content{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}
+@media (max-width: 400px) {
+	
+}
+
+

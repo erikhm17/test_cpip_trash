@@ -1,0 +1,79 @@
+.navbar-header{
+	background-color: #ffffff;
+}
+.navigation_menu .navbar-header img{
+	padding-top: 10px;
+	width: 375px;
+	height: 65px;
+	float: left;
+}
+.navbar-default{
+  background-color: #ffffff;
+}
+.navbar-default, .navbar-header,.navbar-collapse {
+
+}
+.navigation_menu{
+
+
+}
+.container-fluid{
+	padding-top: 5px;
+	width: 90%;
+	background-color: #ffffff;
+	/*background-color: red;*/
+}
+.container-fluid .navbar-collapse{
+	padding-top: 12px;
+
+	/*background-color: blue;*/
+}
+.collapse .navbar-nav li  {
+	/*background-color: #24508d;*/
+		padding: 0.5px;
+		height: 55px;
+
+}
+
+.collapse .navbar-nav li a {
+		/*background-color: #36508d;*/
+		height: 30px;
+		/* espaciado entre as */
+		padding: 10px 20px 30px 20px;
+
+		border-radius: 2px 2px 2px 2px;
+		-moz-border-radius: 2px 2px 2px 2px;
+		-webkit-border-radius: 2px 2px 2px 2px;
+
+		-moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+		-webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+		-o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+		-ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+		transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+
+}
+/* borde */
+/*.collapse .navbar-nav li .border_menu{
+	width: 100%;
+	height: 1px;
+	background-color: #A9BCF5;
+}*/
+.collapse .navbar-nav li a:focus{
+	background-color: #3e64a1;
+}
+.collapse .navbar-nav li a:hover{
+	/*background-color: #A9A9F5;*/
+	border: 0px solid #858585;
+
+	background: #3e64a1; /*#009688;*/
+	color: #FFFFFF !important;
+	cursor: pointer;
+}
+
+.collapse .navbar-nav li a{
+		color: #FFFFFF !important;
+		background: #1c3e6f; /*#009688;*/
+}
+
+
+/*1920x580*/
